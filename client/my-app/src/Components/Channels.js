@@ -3,12 +3,12 @@ import Channel from './Channel'
 
 function Channels() {
     return (
-        <div className="w-1/3">
-            <Channel />
-            <Channel />
-            <Channel />
-            <Channel />
-            <Channel />
+        <div className="sticky top-10 bg-white overflow-y-auto w-1/4 border-r">
+            <Channel name="Sports"/>
+            <Channel name="Dancing"/>
+            <Channel name="Hackathon"/>
+            <Channel name="Reactjs"/>
+            
         </div>
     )
 }
