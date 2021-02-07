@@ -1,5 +1,6 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
+import Answers from '../Components/Answers'
 import Channels from '../Components/Channels'
 import Forum from '../Components/Forum'
 import Gforum from '../Components/Gforum'
@@ -12,7 +13,8 @@ function Home() {
             <div className="flex flex-row w-full h-full">
                 <Channels />
                 <Route exact path="/room" component={Gforum}></Route>
-                <Route path="/room/:id" component={Forum}></Route>
+                <Route path="/room/:roomid" component={Forum}></Route>
+                <Route path ="/question/:qid" component={Answers}></Route>
             </div>
         </div>
     )

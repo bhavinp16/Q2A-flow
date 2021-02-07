@@ -5,7 +5,7 @@ function Navbar() {
 
     return (
         <div className="fixed flex flex-row justify-between h-16 border-b bg-white w-full shadow-md">
-            <div className=" flex flex-row items-center justify-center pl-24 font-bold text-xl font-serif text-gray-600">
+            <div className=" flex flex-row items-center justify-center pl-24 font-bold text-xl font-serif text-gray-800">
                 Q2A-flow
             </div>
 
