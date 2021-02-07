@@ -12,9 +12,9 @@ function Home() {
             <Navbar />
             <div className="flex flex-row w-full h-full">
                 <Channels />
-                <Route exact path="/room" component={Gforum}></Route>
-                <Route path="/room/:roomid" component={Forum}></Route>
-                <Route path ="/question/:qid" component={Answers}></Route>
+                <Route exact path="/app/room" component={Gforum}></Route>
+                <Route path="/app/room/:roomid" component={Forum}></Route>
+                <Route path ="/app/question/:qid" component={Answers}></Route>
             </div>
         </div>
     )

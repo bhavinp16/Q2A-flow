@@ -10,7 +10,7 @@ function Navbar() {
             </div>
 
             <div className="font-bold flex flex-row items-center justify-center text-lg mr-32 font-serif">
-                <Link to="/room" className=" p-8 text-gray-500 focus:outline-none hover:text-gray-900">
+                <Link to="/app/room" className=" p-8 text-gray-500 focus:outline-none hover:text-gray-900">
                     Home
                 </Link>
                 <Link className="p-8 text-gray-500 focus:outline-none hover:text-gray-900">
@@ -19,10 +19,10 @@ function Navbar() {
                 <Link className="p-8 text-gray-500 focus:outline-none hover:text-gray-900">
                     My account
                 </Link>
-                <Link className="p-8 text-gray-500 focus:outline-none hover:text-gray-900">
+                <Link to="/login" className="p-8 text-gray-500 focus:outline-none hover:text-gray-900">
                     Login
                 </Link>
-                <Link className="p-8 text-gray-500 focus:outline-none hover:text-gray-900">
+                <Link to="/register" className="p-8 text-gray-500 focus:outline-none hover:text-gray-900">
                     Register
                 </Link>
             </div>
