@@ -5,7 +5,7 @@ import Search from './Search'
 
 function Gforum() {
     return (
-        <div className="w-3/4 bg-gray-100">
+        <div className="flex flex-col w-3/4 bg-gray-100">
             <Search />
             <Questions />
         </div>

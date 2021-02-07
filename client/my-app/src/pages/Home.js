@@ -9,7 +9,7 @@ function Home() {
     return (
         <div className="flex flex-col h-screen">
             <Navbar />
-            <div className="flex flex-row w-full">
+            <div className="flex flex-row w-full h-full">
                 <Channels />
                 <Route exact path="/room" component={Gforum}></Route>
                 <Route path="/room/:id" component={Forum}></Route>
