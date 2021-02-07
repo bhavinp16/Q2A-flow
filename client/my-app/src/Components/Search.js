@@ -2,7 +2,7 @@ import React from 'react'
 
 function Search() {
     return (
-        <div className="flex flex-row justify-center items-center p-4 pt-0 pb-1 w-full sticky top-10">
+        <div className="flex flex-row justify-center items-center p-4 pt-0 pb-1 w-full mt-16">
             <div className="flex flex-row justify-center items-center p-4 pb-1 w-4/5">
                 <i className="material-icons border border-gray-200 p-2 pl-4 pr-1 rounded-l-full shadow-md">search
                 </i>
